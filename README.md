@@ -18,5 +18,6 @@ Use this as a starting point for an app (Handlebars Express)
 * put static files in /public - the skeleton has a mapping so that the web server will serve things in  rooturl/static/
 
 
-```Have fun!
+```
+Have fun!
 ```
