@@ -1,0 +1,22 @@
+
+# Node Skeleton
+
+Use this as a starting point for an app (Handlebars Express)
+
+## Install
+
+* **terminal into server** - run command: ssh <user>@bos1dnodel01.bos1.vrtx.com
+* **cd into project** - run command: cd /apps/project/<yourapp>
+* **Get files from Subversion** - run command: svn export --force http://svn.vrtx.com/svn/webdev/node_skeleton/trunk .
+* **Install modules** - run command: npm install	
+* **Modify README.md** - change this file with your app's description, etc
+* **Modify README.md** - change the filename of node_skeleton.js to yourApp.js and modify the configs in that file
+   
+## Things to Note
+* notice the svn-ignore.txt file - put anything in here that you don't want in subversion and run this command from your checked out, or working, directory: svn propset svn:ignore -RF /svn-ignore.txt .
+* always use npm install --save --save-exact **AND** npm uninstall --save
+* put static files in /public - the skeleton has a mapping so that the web server will serve things in  rooturl/static/
+
+
+```Have fun!
+```
