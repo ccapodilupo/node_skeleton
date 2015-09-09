@@ -12,7 +12,7 @@ Use this as a starting point for an app (Handlebars Express)
 * **Install modules** - run command: npm install	
 * **Modify README.md** - change this file with your app's description, etc
 * **Modify main server file** - change the filename of node_skeleton.js to yourApp.js and modify the configs in that file
-* * fielstoragepath
+*** fielstoragepath
    
 ## Things to Note
 * notice the svn-ignore.txt file - put anything in here that you don't want in subversion and run the following command from your checked out, or working, directory: svn propset svn:ignore -RF /svn-ignore.txt .
