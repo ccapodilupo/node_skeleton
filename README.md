@@ -15,7 +15,7 @@ Use this as a starting point for an app (Handlebars Express)
   * fielstoragepath
   * port
   * app.locals
-* **Create env.json file** - store in filestorage/<yourapp>/config/env.json - starter content is here: /lib/common.js
+* **Create env.json file** - store in filestorage/<yourapp>/config/env.json - starter content is here: /lib/common.js. Add additional dbconnections as necessary for your app
    
 ## Things to Note
 * notice the svn-ignore.txt file - put anything in here that you don't want in subversion and run the following command from your checked out, or working, directory: svn propset svn:ignore -RF /svn-ignore.txt .
