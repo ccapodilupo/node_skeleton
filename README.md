@@ -15,13 +15,13 @@ Use this as a starting point for an app (Handlebars Express)
   * fielstoragepath
   * port
   * app.locals
-* **Create env.json file** - store in filestorage/<yourapp>/config/env.json - starter content is here: /lib/common.js. Add additional dbconnections as necessary for your app
+* **Modify env.json file** - Add additional dbconnections as necessary for your app
    
 ## Things to Note
-* notice the svn-ignore.txt file - keep nod-modules in there and add anything that you don't want in subversion. Run the following command from your checked out, or working, directory: svn propset svn:ignore -RF /svn–ignore.txt .
+* notice the svn-ignore.txt file - keep existing contents (node_modules and env.json) and add anything that you don't want in subversion. Run the following command from your checked out, or working, directory: svn propset svn:ignore -RF /svn–ignore.txt .
 * always use npm install --save --save-exact **AND** npm uninstall --save
 * put static files in /public - the skeleton has a mapping so that the web server will serve things in  rooturl/static/
-
+* reloadify - this reloads the browser when views change - if you don't want it remove the refreences to it in code and npm uninstall reloadify --save
 
 ```
 Have fun!
