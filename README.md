@@ -16,7 +16,6 @@ Use this as a starting point for an app (Handlebars Express)
   * siteConfig
   * filestoragepath
   * port
-  * DB connections in env.json (example below)
 * **Modify env.json file** - To include password for general and add additional dbconnections as necessary for your app
    
 ## Things to Note
