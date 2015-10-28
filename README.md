@@ -31,8 +31,8 @@ Have fun! Example of config/env.json below
   "development": {
       "dbconnections": {
         "general": {
-            "host": "puyallup.bos1.vrtx.com",
-            "user": "root",
+            "host": "",
+            "user": "general",
             "password": "",
             "database": "general",
             "insecureAuth": "true"
@@ -42,9 +42,9 @@ Have fun! Example of config/env.json below
   "production": {
       "dbconnections": {
         "general": {
-            "host": "deathstar.bos1.vrtx.com",
+            "host": "",
             "user": "general",
-            "password": "general",
+            "password": "",
             "database": "general",
             "insecureAuth": "true"
         }
