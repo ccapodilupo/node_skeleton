@@ -28,7 +28,7 @@ Use this as a starting point for an app (Handlebars Express)
 Have fun! Example of config/env.json below
 ```
 
-## SubversionInstall
+## Variation on install - starting with your app Subversion 
 
 * **Terminal into server** - run command: ssh <user>@bos1dnodel01.bos1.vrtx.com
 * **Make project** - run command: mkdir /apps/project/[your_app]
