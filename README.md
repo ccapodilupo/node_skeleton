@@ -10,7 +10,7 @@ Use this as a starting point for an app (Handlebars Express)
 * **Go to project** - run command: cd /apps/project/[your_app]
 * **Import into Subversion** - run command: svn import -m 'New project' http://svn.vrtx.com/svn/webdev/[your_app]/trunk
 * **Check out from Subversion** - run command: svn co http://svn.vrtx.com/svn/webdev/[your_app]/trunk
-* **Get files from Subversion** - run command: svn export --force http://svn.vrtx.com/svn/webdev/node_skeleton/trunk .
+* **Get files for skeleton** - run command: svn export --force http://svn.vrtx.com/svn/webdev/node_skeleton/trunk/ .
 * **Install modules** - run command: npm install	
 * **Modify README.md** - change this file with your app's description, etc
 * **Modify main server file** - change the filename of node_skeleton.js to yourApp.js
