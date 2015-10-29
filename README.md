@@ -8,7 +8,7 @@ Use this as a starting point for an app (Handlebars Express)
 * **Terminal into server** - run command: ssh <user>@bos1dnodel01.bos1.vrtx.com
 * **Make project** - run command: mkdir /apps/project/<yourapp>
 * **Go to project** - run command: cd /apps/project/<yourapp>
-* **Import into Subversion** - run command: svn import -m 'New project' http://svn.vrtx.com/svn/webdev/<yourapp>/trunk
+* **Import into Subversion** - run command: svn import -m 'New project' http://svn.vrtx.com/svn/webdev/[yourapp]/trunk
 * **Check out from Subversion** - run command: svn co http://svn.vrtx.com/svn/webdev/<yourapp>/trunk
 * **Get files from Subversion** - run command: svn export --force http://svn.vrtx.com/svn/webdev/node_skeleton/trunk .
 * **Install modules** - run command: npm install	
