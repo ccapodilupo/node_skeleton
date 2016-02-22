@@ -5,10 +5,10 @@ Use this as a starting point for an app (Handlebars Express)
 
 ## Install
 
-* **Terminal into server** - run command: ssh <user>@bos1dnodel01.bos1.vrtx.com
+* **Terminal into server** - run command: ssh <user>@xxx.xxxx.com
 * **Make project** - run command: mkdir /apps/project/[your_app]
 * **Go to project** - run command: cd /apps/project/[your_app]
-* **Get files for skeleton** - run command: svn export --force http://svn.vrtx.com/svn/webdev/node_skeleton/trunk/ .
+* **Get files for skeleton** - run command: svn export --force http://xxx.xxxx.com/svn/webdev/node_skeleton/trunk/ .
 * **Install modules** - run command: npm install	
 * **Modify README.md** - change this file with your app's description, etc
 * **Modify main server file** - change the filename of node_skeleton.js to yourApp.js
@@ -30,12 +30,12 @@ Have fun! Example of config/env.json below
 
 ## Variation on install - starting with your app Subversion 
 
-* **Terminal into server** - run command: ssh <user>@bos1dnodel01.bos1.vrtx.com
+* **Terminal into server** - run command: ssh <user>@xxx.xxxx.com
 * **Make project** - run command: mkdir /apps/project/[your_app]
 * **Go to project** - run command: cd /apps/project/[your_app]
-* **Create new repo in Subversion** - run command: svn import -m 'New project' http://svn.vrtx.com/svn/webdev/[your_app]/trunk
-* **Make it a working copy** - run command: svn co http://svn.vrtx.com/svn/webdev/[your_app]/trunk .
-* **Get files for skeleton** - run command: svn export --force http://svn.vrtx.com/svn/webdev/node_skeleton/trunk/ .
+* **Create new repo in Subversion** - run command: svn import -m 'New project' http://xxx.xxxx.com/svn/webdev/[your_app]/trunk
+* **Make it a working copy** - run command: svn co http://xxx.xxxx.com/svn/webdev/[your_app]/trunk .
+* **Get files for skeleton** - run command: svn export --force http://xxx.xxxx.com/svn/webdev/node_skeleton/trunk/ .
 * **Install modules** - run command: npm install	
 * **Modify README.md** - change this file with your app's description, etc
 * **Modify main server file** - change the filename of node_skeleton.js to yourApp.js
